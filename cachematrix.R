@@ -7,15 +7,15 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Function for setting the value of the matrix	
 	set <- function(y) {
-		x <<-- y
-		i <<-- NULL
+		x <<- y
+		i <<- NULL
 	}
 
 ## Function for retrieving the value of the matrix
 	get <- function() x
 
 ## Function for setting the value of the inverse matrix
-	setinv <- function(solve) i <<-- solve
+	setinv <- function(solve) i <<- solve
 	
 ## Function for retrieving the value of the inverse matrix
 	getinv <- function() i
